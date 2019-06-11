@@ -11,7 +11,7 @@
 ## 安裝
 
 ```sh
-pip install git+https://github.com/APCLab/jieba-tw.git
+pip install git+https://github.com/samhung7/jieba-tw.git
 ```
 
 ## 使用
