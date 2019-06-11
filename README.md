@@ -16,13 +16,7 @@ pip install git+https://github.com/APCLab/jieba-tw.git
 
 ## 使用
 
-本專案特化部分如下
-
-```python
-import jieba
-
-jieba.case_sensitive = True # 可控制對於詞彙中的英文部分是否為case sensitive, 預設False
-```
+操作方法同原始jieba
 
 ## 斷詞
 
