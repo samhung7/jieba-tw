@@ -13,7 +13,6 @@ import threading
 from math import log
 from hashlib import md5
 from ._compat import *
-from ._dict import CaseInsensitiveDict
 from . import finalseg
 
 if os.name == 'nt':
@@ -75,7 +74,7 @@ class Tokenizer(object):
         if case_sensitive:
             return {}
         else:
-            return CaseInsensitiveDict()
+            pass
 
     def gen_pfdict(self, f):
         lfreq = self._create_dict()
