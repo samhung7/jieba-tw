@@ -74,7 +74,7 @@ class Tokenizer(object):
         if case_sensitive:
             return {}
         else:
-            pass
+            return {}
 
     def gen_pfdict(self, f):
         lfreq = self._create_dict()
